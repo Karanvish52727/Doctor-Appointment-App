@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn:active {
+    transform: scale(0.90);
+    box-shadow: 1 2 1 rgba(40, 14, 14, 0);
+}
+
+.bi-bell:active{
+    transform: scale(0.80);
+    color: rgb(6, 6, 253);
+}
+
+.spinner {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    background-color: #e1dada;
+    z-index: 1050;
+}
+
+.form-btn {
+    width: 40% !important;
+    margin-top: 7% !important;
+}
